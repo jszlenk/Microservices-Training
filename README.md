@@ -1,2 +1,3 @@
-# Microservices-Training
-From monolith to microservice architecture
+# Microservices Training
+
+An example of a microservices architecture.
