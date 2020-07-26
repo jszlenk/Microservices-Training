@@ -14,13 +14,12 @@ class GetCachedTweet {
     @Autowired
     private WebTestClient webTestClient;
 
-    // @formatter:off
     @DisplayName(
             "given no service at /api/tweets, " +
                     "when GET on /api/tweets, " +
                     "then cached result is returned"
     )
-    //@formatter:on
+
     @Test
     void test() throws Exception {
         // when
